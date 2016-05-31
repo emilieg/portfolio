@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box; 
+}
+
 body {
     background: white; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#ffffff, #737e8b); /* For Safari 5.1 to 6.0 */
@@ -5,6 +9,73 @@ body {
     background: -moz-linear-gradient(#ffffff, #737e8b); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#ffffff, #737e8b); /* Standard syntax */
 }
+
+#welcome-box {
+  width: 100%;
+  height: 100vh;
+  max-width: none;  
+  margin-top: 50vh;
+}
+
+section {
+  display: table;
+  table-layout: fixed;
+  width: 100vh;
+  margin: 0 auto;
+}
+
+.about {
+  background-image: url('gplaypattern.png');
+  width: 100%;
+/*  background-size: cover;*/
+}
+
+#about-me {
+
+  width: 100%;
+  height: 100vh;
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+.h2-about {
+  text-align: center;
+  margin-left: 12.25vh;
+}
+
+.p-about {
+  margin-right: 12.25vh;
+}
+
+
+#skills {
+  width: 100%;
+  height: 100vh;
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0 auto;
+
+}
+
+#portofolio {
+  width: 100%;
+  height: 100vh;
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0 auto;
+
+}
+
+#contact {
+  width: 100%;
+  height: 100vh;
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+
 
 .element {
   color: black;
@@ -22,6 +93,8 @@ a {
   margin-top: 30px;
   text-transform: uppercase;
   font-size: 25px;
+  position: fixed;
+  top: 0;
 }
 
 li {
@@ -53,7 +126,7 @@ p {
 
 
 .pure-g {
-  margin: 280px;
+/*  margin: 280px;*/
 }
 
 .pure-g > div {
@@ -62,9 +135,15 @@ p {
   box-sizing: border-box;
 }
 
+.pure-u-1 {
+  display: table;
+  margin: 0;
+  max-width: none;
+}
+
 
 .pure-u-1-2 {
-  padding-top: 100px;
+/*  padding-top: 100px;*/
 }
 
 .pure-u-1.icons {
@@ -100,7 +179,3 @@ p {
     100% { opacity:.8; }
 }
 
-.touch {
-  -webkit-overflow-scrolling: touch;
-   overflow-y: scroll;
-}
