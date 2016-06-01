@@ -2,7 +2,6 @@
 <html>
 <head>
   <title>Portofolio</title>
-  <meta charset="ISO-8859-1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css"> 
   <!-- <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/base-min.css"> -->
@@ -10,7 +9,7 @@
 
   <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/jquery.fullPage.min.css"> 
+  <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/jquery.fullPage.min.css"> 
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
   <!--  Font Awesome Icons -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -20,14 +19,15 @@
 <body>
   <div class="pure-menu pure-menu-horizontal" id="menu">
     <ul class="pure-menu-list">
-      <li class="pure-menu-item" data-menuanchor="about-me"><a href="#about-me" class="pure-menu-link">About Me</a></li>
-      <li class="pure-menu-item" data-menuanchor="skills"><a href="#skills" class="pure-menu-link">Skills</a></li>
-      <li class="pure-menu-item" data-menuanchor="portofolio"><a href="#portofolio" class="pure-menu-link">Projects</a></li>
-      <li class="pure-menu-item" data-menuanchor="contact"><a href="#contact" class="pure-menu-link">Contact</a></li>
-      <li class="pure-menu-item" data-menuanchor="resume"><a href="#resume" class="pure-menu-link">Resume</a></li>
-    </ul>
+      <li class="pure-menu-item" data-menuanchor="about-section"><a href="#about" class="pure-menu-link">About Me</a></li>
+      <li class="pure-menu-item" data-menuanchor="skills-section"><a href="#skills" class="pure-menu-link">Skills</a></li>
+      <li class="pure-menu-item" data-menuanchor="projects-section"><a href="#projects" class="pure-menu-link">Projects</a></li>
+      <li class="pure-menu-item" data-menuanchor="contact-section"><a href="#contact" class="pure-menu-link">Contact</a></li>
+<!--       <li class="pure-menu-item"><a href="#" class="pure-menu-link">Resume</a></li>
+ -->    </ul>
   </div>
   <div id="wrapper">
+<!--   <section class="section" id="welcome" data-anchor="welcome-section">
     <div class="pure-u-1" id="welcome-box">
       <h1><span id="welcome"></span></h1>
       <div id="typed-strings">
@@ -36,8 +36,9 @@
         <p>Have a look around.</p>
       </div>
     </div>
-    <section class="about section" data-anchor="about">
-      <div class="pure-g" id="about-me">
+    </section> -->
+    <section class="section" id="about" data-anchor="about-section">
+      <div class="pure-g" id="me">
         <div class="pure-u-1-2" >
           <h2 class="h2-about"> 
             About Me 
@@ -51,8 +52,8 @@
         </div>
       </div>
     </section> 
-    <section class="section" data-anchor="skills-section"> 
-      <div class="pure-g" id="skills">
+    <section class="section" id="skills" data-anchor="skills-section"> 
+      <div class="pure-g">
         <div class="pure-u-1">
           <h3>TECHNICAL SKILLS</h3>
         </div>     
@@ -91,13 +92,13 @@
         </div> 
       </div>
     </section>
-    <section class="section" data-anchor="projects">   
-      <div class="pure-g" id="portofolio">
+    <section class="section" id="projects" data-anchor="projects-section">   
+      <div class="pure-g" >
         <div class="pure-u-1">
           <h3><a href="http://emilieg.github.io/stuck-in-the-mud/">Stuck in the Mud</a></h3> 
           <p>
-            <img src="MacScreen.png" class="pure-img">
-            Stuck in the Mud is a dice game where two players compete for the highest score. They are only able to score points when their roll does not include any twos or fives. 
+<!--             <img src="MacScreen.png" class="pure-img" alt="image-project">
+ -->            Stuck in the Mud is a dice game where two players compete for the highest score. They are only able to score points when their roll does not include any twos or fives. 
           </p>
           <p>
             Technology used: HTML, CSS, Javascript, jQuery 
@@ -124,7 +125,7 @@
               An app that translates scientific ingredient language into simple terms. Users can scan food, cleaning, and personal products by barcode and get more details about the ingredients in the items that they consume. 
               This app was a group collaboration and built at the AngelHack Hackathon Seattle. 
               Team: Michael, Monte, Nate, Emilie and Keidra
-              I worked on one of the APIs, AngularJS, user story and presented the product to the judges
+              I worked on one of the APIs, AngularJS, user story and presented the product to the judges.
             </p>
             <p>
               Technology: Express, Node.js, AngularJS, Firebase
@@ -134,8 +135,8 @@
         </div>
       </div>
     </section>
-    <section class="section" data-anchor="contact-section">
-      <div class="pure-g" id="contact">
+    <section class="section" id="contact" data-anchor="contact-section">
+      <div class="pure-g">
         <div class="pure-u-1">
           <h3>Get in touch</h3>
           Email: <i class="fa fa-envelope-o" aria-hidden="true"></i> emiliegerberharris@gmail.com
@@ -147,11 +148,11 @@
     </section>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
-  <script src="script.js"></script>
-  <script src="typed.js-master/js/typed.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/vendors/scrolloverflow.min.js"></script>
+<!--   <script src="typed.js-master/js/typed.js"></script>
+ -->  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/vendors/scrolloverflow.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/jquery.fullPage.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/vendors/jquery.easings.min.js"></script>
+  <script src="script.js"></script>
 
 </body>
 </html>
