@@ -19,15 +19,16 @@
 <body>
   <div class="pure-menu pure-menu-horizontal" id="menu">
     <ul class="pure-menu-list">
-      <li class="pure-menu-item" data-menuanchor="about-section"><a href="#about" class="pure-menu-link">About Me</a></li>
-      <li class="pure-menu-item" data-menuanchor="skills-section"><a href="#skills" class="pure-menu-link">Skills</a></li>
-      <li class="pure-menu-item" data-menuanchor="projects-section"><a href="#projects" class="pure-menu-link">Projects</a></li>
-      <li class="pure-menu-item" data-menuanchor="contact-section"><a href="#contact" class="pure-menu-link">Contact</a></li>
-<!--       <li class="pure-menu-item"><a href="#" class="pure-menu-link">Resume</a></li>
- -->    </ul>
+      <li class="pure-menu-item" data-menuanchor="welcome-section"><a href="#welcome-section" class="pure-menu-link">Home</a></li>
+      <li class="pure-menu-item" data-menuanchor="about-section"><a href="#about-section" class="pure-menu-link">About Me</a></li>
+      <li class="pure-menu-item" data-menuanchor="skills-section"><a href="#skills-section" class="pure-menu-link">Skills</a></li>
+      <li class="pure-menu-item" data-menuanchor="projects-section"><a href="#projects-section" class="pure-menu-link">Projects</a></li>
+      <li class="pure-menu-item" data-menuanchor="contact-section"><a href="#contact-section" class="pure-menu-link">Contact</a></li>
+      <li class="pure-menu-item"><a href="#" class="pure-menu-link">Resume</a></li>
+    </ul>
   </div>
   <div id="wrapper">
-<!--   <section class="section" id="welcome" data-anchor="welcome-section">
+  <section class="section" id="welcome" data-anchor="welcome-section">
     <div class="pure-u-1" id="welcome-box">
       <h1><span id="welcome"></span></h1>
       <div id="typed-strings">
@@ -36,8 +37,8 @@
         <p>Have a look around.</p>
       </div>
     </div>
-    </section> -->
-    <section class="section" id="about" data-anchor="about-section">
+    </section>
+    <section class="section" data-anchor="about-section">
       <div class="pure-g" id="me">
         <div class="pure-u-1-2" >
           <h2 class="h2-about"> 
@@ -52,7 +53,7 @@
         </div>
       </div>
     </section> 
-    <section class="section" id="skills" data-anchor="skills-section"> 
+    <section class="section" data-anchor="skills-section"> 
       <div class="pure-g">
         <div class="pure-u-1">
           <h3>TECHNICAL SKILLS</h3>
@@ -92,9 +93,10 @@
         </div> 
       </div>
     </section>
-    <section class="section" id="projects" data-anchor="projects-section">   
+    <section class="section" data-anchor="projects-section">   
       <div class="pure-g" >
         <div class="pure-u-1">
+          <div class="slide" data-anchor="slide1">
           <h3><a href="http://emilieg.github.io/stuck-in-the-mud/">Stuck in the Mud</a></h3> 
           <p>
 <!--             <img src="MacScreen.png" class="pure-img" alt="image-project">
@@ -105,8 +107,10 @@
             <a href="https://github.com/emilieg/stuck-in-the-mud"><i class="devicon-github-plain"></i></a>
           </p>
         </div>
+        </div>
         <div class="pure-g">
           <div class="pure-u-1">
+            <div class="slide" data-anchor="slide2">
             <h3><a href="https://wino911.herokuapp.com/">Wino911</a></h3>
             <p>
               Wino911 helps you find a place that serves wine fast. Directions are provided to guide you to the closest destination so you can quench your thirst. If you like the place you can save it to your favorites list. The local temperature display helps you decide whether you should drink red or white.
@@ -117,9 +121,11 @@
               <a href="https://github.com/emilieg/Wino911"> <i class="devicon-github-plain"></i></a>
             </p>
           </div>
+          </div>
         </div>
         <div class="pure-g">
           <div class="pure-u-1">
+          <div class="slide" data-anchor="slide3">
             <h3><a href="http://www.hackathon.io/what-s-that2">What's That?</a></h3>
             <p>
               An app that translates scientific ingredient language into simple terms. Users can scan food, cleaning, and personal products by barcode and get more details about the ingredients in the items that they consume. 
@@ -135,7 +141,7 @@
         </div>
       </div>
     </section>
-    <section class="section" id="contact" data-anchor="contact-section">
+    <section class="section" data-anchor="contact-section">
       <div class="pure-g">
         <div class="pure-u-1">
           <h3>Get in touch</h3>
@@ -148,8 +154,8 @@
     </section>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
-<!--   <script src="typed.js-master/js/typed.js"></script>
- -->  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/vendors/scrolloverflow.min.js"></script>
+  <script src="typed.js-master/js/typed.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/vendors/scrolloverflow.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/jquery.fullPage.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/vendors/jquery.easings.min.js"></script>
   <script src="script.js"></script>
