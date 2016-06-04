@@ -29,8 +29,8 @@
   </div>
   <div id="wrapper">
   <section class="section" id="welcome" data-anchor="welcome-section">
-    <div class="pure-u-1" id="welcome-box">
-      <h1><span id="welcome"></span></h1>
+    <div class="pure-u-1" id="welcome-box">     
+      <h1><span id="welcome-typer"></span></h1>   
       <div id="typed-strings">
         <p>Welcome. <br> <strong> My name is Emilie :) </strong></p>
         <p>I <3 to build things for the web.</p>
@@ -38,8 +38,8 @@
       </div>
     </div>
     </section>
-    <section class="section" data-anchor="about-section">
-      <div class="pure-g" id="me">
+    <section class="section about" data-anchor="about-section">
+      <div class="pure-g" id="about-me">
         <div class="pure-u-1-2" >
           <h2 class="h2-about"> 
             About Me 
@@ -95,49 +95,74 @@
     </section>
     <section class="section" data-anchor="projects-section">   
       <div class="pure-g" >
-        <div class="pure-u-1">
-          <div class="slide" data-anchor="slide1">
+        <div class="slide" data-anchor="slide1">
+          <div class="pure-u-1-2">
+            <h3><a href="http://www.hackathon.io/what-s-that2">What's That?</a></h3>
+            <p>
+              An app that translates scientific ingredient language into simple terms. Users can scan food, cleaning, and personal products by barcode and get detailed information about the ingredients. 
+              This app was a group collaboration and built at the AngelHack Hackathon Seattle. 
+              Team: Michael, Monte, Nate, Emilie and Keidra
+              I worked on one of the APIs, AngularJS, user story and presentation of the product to the judges.
+            </p>
+            <p>
+              Technology: Swift, Express, Node.js, AngularJS, Firebase
+              <a href="https://youtu.be/1Sst23oGZE8">Demo</a>
+              <a href="https://github.com/emilieg/whatsinthis"><i class="devicon-github-plain"></i></a>
+            </p>
+            </div>
+            <div class="pure-u-1-2">
+            <img src="pictures/iphone-whats-that.png" class="pure-img" alt="image-project">
+            </div>       
+        </div>
+        <div class="pure-g">
+          <div class="slide" data-anchor="slide2">
+            <div class="pure-u-1-2">
+               <h3><a href="https://wino911.herokuapp.com/">Wino911</a></h3>
+                <p>
+                Wino911 helps you find a place that serves wine fast. Directions are provided to guide you to the closest destination so you can quench your thirst. If you like the place you can save it to your favorites list. The local temperature display helps you decide whether you should drink red or white.
+                </p>
+                <p>
+                Technology: JavaScript, Node.js, ExpressJS, Postgres, Sequelize
+                APIs: Google Places, Google Directions, Forecast.io
+                <a href="https://github.com/emilieg/Wino911"> <i class="devicon-github-plain"></i></a>
+                </p>
+            </div>
+            <div class="pure-u-1-2">
+              <img src="pictures/wino911.png" class="pure-img" alt="image-project">
+            </div>
+          </div>
+        </div>
+        <div class="pure-g">
+          <div class="slide" data-anchor="slide3">
+          <div class="pure-u-1-2">
+          <h3><a href="http://cappstone.herokuapp.com/">Cappstone</a></h3> 
+          <p>
+            Cappstone is an app that helps you track all activities related to your job search. Check for upcoming appointments, add contacts, and add notes about meetings. 
+          </p>
+          <p>
+            Technology used: HTML, CSS, Javascript, jQuery, Ruby on Rails 
+            <a href="https://github.com/emilieg/cappstone"><i class="devicon-github-plain"></i></a>
+          </p>
+          </div>
+          <div class="pure-u-1-2">
+            <img src="MacScreen-cropped.png" class="pure-img" alt="image-project">
+          </div>  
+        </div>
+        <div class="pure-g">
+          <div class="slide" data-anchor="slide4">
+          <div class="pure-u-1-2">
           <h3><a href="http://emilieg.github.io/stuck-in-the-mud/">Stuck in the Mud</a></h3> 
           <p>
-<!--             <img src="MacScreen.png" class="pure-img" alt="image-project">
- -->            Stuck in the Mud is a dice game where two players compete for the highest score. They are only able to score points when their roll does not include any twos or fives. 
+            Stuck in the Mud is a dice game where two players compete for the highest score. They are only able to score points when their roll does not include any twos or fives. 
           </p>
           <p>
             Technology used: HTML, CSS, Javascript, jQuery 
             <a href="https://github.com/emilieg/stuck-in-the-mud"><i class="devicon-github-plain"></i></a>
           </p>
-        </div>
-        </div>
-        <div class="pure-g">
-          <div class="pure-u-1">
-            <div class="slide" data-anchor="slide2">
-            <h3><a href="https://wino911.herokuapp.com/">Wino911</a></h3>
-            <p>
-              Wino911 helps you find a place that serves wine fast. Directions are provided to guide you to the closest destination so you can quench your thirst. If you like the place you can save it to your favorites list. The local temperature display helps you decide whether you should drink red or white.
-            </p>
-            <p>
-              Technology: JavaScript, Node.js, ExpressJS, Postgres, Sequelize
-              APIs: Google Places, Google Directions, Forecast.io
-              <a href="https://github.com/emilieg/Wino911"> <i class="devicon-github-plain"></i></a>
-            </p>
           </div>
-          </div>
-        </div>
-        <div class="pure-g">
-          <div class="pure-u-1">
-          <div class="slide" data-anchor="slide3">
-            <h3><a href="http://www.hackathon.io/what-s-that2">What's That?</a></h3>
-            <p>
-              An app that translates scientific ingredient language into simple terms. Users can scan food, cleaning, and personal products by barcode and get more details about the ingredients in the items that they consume. 
-              This app was a group collaboration and built at the AngelHack Hackathon Seattle. 
-              Team: Michael, Monte, Nate, Emilie and Keidra
-              I worked on one of the APIs, AngularJS, user story and presented the product to the judges.
-            </p>
-            <p>
-              Technology: Express, Node.js, AngularJS, Firebase
-              <a href="https://github.com/emilieg/whatsinthis"><i class="devicon-github-plain"></i></a>
-            </p>
-          </div>
+          <div class="pure-u-1-2">
+            <img src="mud-in-screen.png" class="pure-img" alt="image-project">
+          </div>  
         </div>
       </div>
     </section>
