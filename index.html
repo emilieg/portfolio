@@ -1,188 +1,272 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Portofolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css"> 
-  <!-- <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/base-min.css"> -->
-  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
-
-  <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/jquery.fullPage.min.css"> 
-  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
-  <!--  Font Awesome Icons -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-  <!-- Internal Stylesheet -->
-  <link rel="stylesheet" href="style.css">
+    <title>Portofolio</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css" rel=
+    "stylesheet">
+    <!-- <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/base-min.css"> -->
+    <link href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css"
+    rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700'
+    rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700'
+    rel='stylesheet' type='text/css'>
+    <link href=
+    "https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/jquery.fullPage.min.css"
+    rel='stylesheet'>
+    <link href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css"
+    rel="stylesheet"><!--  Font Awesome Icons -->
+    <link href=
+    "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+    rel="stylesheet"><!-- Internal Stylesheet -->
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-  <div class="pure-menu pure-menu-horizontal" id="menu">
-    <ul class="pure-menu-list">
-      <li class="pure-menu-item" data-menuanchor="welcome-section"><a href="#welcome-section" class="pure-menu-link">Home</a></li>
-      <li class="pure-menu-item" data-menuanchor="about-section"><a href="#about-section" class="pure-menu-link">About Me</a></li>
-      <li class="pure-menu-item" data-menuanchor="skills-section"><a href="#skills-section" class="pure-menu-link">Skills</a></li>
-      <li class="pure-menu-item" data-menuanchor="projects-section"><a href="#projects-section" class="pure-menu-link">Projects</a></li>
-      <li class="pure-menu-item" data-menuanchor="contact-section"><a href="#contact-section" class="pure-menu-link">Contact</a></li>
-      <li class="pure-menu-item"><a href="#" class="pure-menu-link">Resume</a></li>
-    </ul>
-  </div>
-  <div id="wrapper">
-    <section class="section" id="welcome" data-anchor="welcome-section">
-      <div class="pure-u-1" id="welcome-box">     
-        <h1><span id="welcome-typer"></span></h1>   
-        <div id="typed-strings">
-          <p>Welcome. <br> <strong> My name is Emilie :) </strong></p>
-          <p>I <3 to build things for the web.</p>
-          <p>Have a look around.</p>
-        </div>
-      </div>
-    </section>
-    <section class="section about" data-anchor="about-section">
-      <div class="pure-g" id="about-me">
-        <div class="pure-u-1-2" >
-          <h2 class="h2-about"> 
-            < About Me />
-          </h2>
-          <p class="p-about">I am a Seattle-based web developer with a not-so-traditional tech background. In my past lives I've been an Account Manager and a Pilates Instructor.</p>
-        </div>
-        <div class="pure-u-1-2 text-right">
-          <p class="p-about">
-             I strive to create meaningful web applications that are functional, informative, and aesthetically pleasing for the user drawing from my art education and several years of experience in sales and marketing. As a creative thinker and problem solver, I can close the gaps between clients and companies.
-          </p>     
-        </div>
-      </div>
-    </section> 
-    <section class="section" data-anchor="skills-section"> 
-      <div class="pure-g" id="skills-list">
-        <div class="pure-u-1">
-          <h3>TECHNICAL SKILLS</h3>
-        </div>     
-        <div class="pure-u-1-3 ">
-          <h4>LANGUAGES</h4>
-          <p>CSS3, HTML5, SQL, Ruby, JavaScript</p>
-          <h4>FRAMEWORKS</h4>
-          <p>Rspec, React, Angular, Rails, Express, Node</p>
-        </div>
-
-        <div class="pure-u-1-3 ">
-          <h4>LIBRARIES</h4>
-          <p>Bootstrap, Bcrypt, Purecss, jQuery</p>
-          <h4>DATABASES</h4>
-          <p>NoSQL, ActiveRecord, Mongoose, MongoDB, Sequelize, PostgreSQL</p>
-        </div>
-        <div class="pure-u-1-3 ">
-          <h4>OTHER</h4>
-          <p>Agile, TDD, JSON, AJAX, Sessions, Authentication, Encryption, RESTful Routing, Heroku, GitHub</p>
-        </div> 
-      </div>
-    </section>
-    <section class="section" data-anchor="projects-section">   
-      <div class="pure-g" >
-        <div class="slide" data-anchor="slide1">
-          <div class="pure-u-1-2">
-            <h3 class="title">WHAT'S THAT?</h3>
-            <span><a href="http://www.hackathon.io/what-s-that2"><i class="fa fa-globe sm-icon" aria-hidden="true"></a></i></span>
-            <span><a href="https://github.com/emilieg/whatsinthis"><i class="fa fa-code-fork sm-icon" aria-hidden="true"></i></i></a></span>
-            <span><a href="https://youtu.be/1Sst23oGZE8"><i class="fa fa-youtube-play sm-icon" aria-hidden="true"></i></a></span>          
-            <p>
-              An app that translates scientific ingredient language into simple terms. Scan food, cleaning, and personal products by barcode and get detailed information about the ingredients.
-            </p>
-            <p>   
-              <i class="fa fa-users icon-sm" aria-hidden="true"></i>
-              This app was a group collaboration at the AngelHack Hackathon Seattle. We won 2nd place overall as well as the Code for Impact award. 
-            </p>  
-            <p>
-              Swift, Express<i class="devicon-html5-plain icon"></i><i class="devicon-css3-plain icon"></i><i class="devicon-javascript-plain icon"></i><i class="devicon-nodejs-plain icon"></i><i class="devicon-angularjs-plain icon"></i>Firebase
-            </p>
-          </div>
-          <div class="pure-u-1-2">
-            <img src="pictures/whats-that-phone.png" class="pure-img" alt="redbull-ingredients" id="redbull-img">
-          </div>       
-        </div>
-        <div class="pure-g">
-          <div class="slide" data-anchor="slide2">
-            <div class="pure-u-1-2">
-             <h3 class="title"> WINO911</h3>
-             <span><a href="https://wino911.herokuapp.com/"> <i class="fa fa-globe sm-icon" aria-hidden="true"></i></a></span>
-             <span><a href="https://github.com/emilieg/Wino911"><i class="fa fa-code-fork sm-icon" aria-hidden="true"></i></a></span>
-             <p>
-              Wino911 provides you with directions to the closest wine bar. A local temperature display helps you decide whether you should drink red or white.
-            </p>
-            <p>
-              <i class="devicon-javascript-plain icon"></i><i class="devicon-nodejs-plain icon"></i> <i class="devicon-postgresql-plain icon"></i> Sequelize, ExpressJS 
-            </p>
-          </div>
-          <div class="pure-u-1-2">
-            <img src="pictures/wino911.png" class="pure-img" alt="image-project">
-          </div>
-        </div>
-      </div>
-      <div class="pure-g">
-        <div class="slide" data-anchor="slide3">
-          <div class="pure-u-1-2">
-            <h3 class="title">CAPPSTONE</h3>
-            <span><a href="http://cappstone.herokuapp.com/"><i class="fa fa-globe sm-icon" aria-hidden="true"></i></a></span>
-            <span><a href="https://github.com/emilieg/cappstone"><i class="fa fa-code-fork sm-icon" aria-hidden="true"></i></a></span> 
-            <p>
-              Cappstone is an app that helps you track all activities related to your job search. Check for upcoming appointments, add contacts, and add notes about meetings.               
-            </p>
-            <p>
-              <i class="fa fa-users icon-sm" aria-hidden="true"></i>
-              This app was build in Ruby on Rails as a group initiative with 3 other developers in 4 days. 
-            </p>
-            <p>
-              <i class="devicon-html5-plain icon"></i><i class="devicon-css3-plain icon"></i> <i class="devicon-javascript-plain icon"></i><i class="devicon-jquery-plain icon"></i><i class="devicon-ruby-plain icon"></i><i class="devicon-rails-plain icon"></i>
-            </p>
-          </div>
-          <div class="pure-u-1-2">
-            <img src="pictures/cappstone.png" class="pure-img" alt="image-project">
-          </div>  
-        </div>
-      </div>
-      <div class="pure-g">
-        <div class="slide" data-anchor="slide4">
-          <div class="pure-u-1-2">
-            <h3 class="title">STUCK IN THE MUD</h3>
-            <span><a href="http://emilieg.github.io/stuck-in-the-mud/"> <i class="fa fa-globe sm-icon" aria-hidden="true"></i></a></span>
-            <span> <a href="https://github.com/emilieg/stuck-in-the-mud"><i class="fa fa-code-fork sm-icon" aria-hidden="true"></i></i></a></span> 
-            <p>
-              Stuck in the Mud is a dice game where two players compete for the highest score. They are only able to score points when their roll does not include any twos or fives. 
-            </p>
-            <p>
-              <!-- technology used -->
-              <i class="devicon-html5-plain icon"></i><i class="devicon-css3-plain icon"></i><i class="devicon-javascript-plain icon"></i><i class="devicon-jquery-plain icon"></i>            
-            </p>
-          </div>
-          <div class="pure-u-1-2">
-            <img src="mud-in-screen.png" class="pure-img" alt="image-project">
-          </div>
-          </div>  
-        </div>
-      </div>
-    </section>
-    <section class="section" data-anchor="contact-section">
-      <div class="pure-g">
-        <div class="pure-u-1-3"></div>
-        <div class="pure-u-1-3">
-          <h1>GET IN TOUCH</h1>
-          <p>
-          Email: <i class="fa fa-envelope-o icon" aria-hidden="true"></i> emiliegerberharris@gmail.com
-          <a href="https://github.com/emilieg" target="_blank"><i class="devicon-github-plain icon"></i></a>
-          <a href="https://www.linkedin.com/in/emiliegerber" target="_blank"><i class="fa fa-linkedin-square icon" aria-hidden="true"></i></a>
-          Resume: <i class="fa fa-file-pdf-o icon" ara-hidden="true"></i>
-          </p>
-        </div>
-        <div class="pure-u-1-3"></div> 
-      </div> 
-    </section>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
-  <script src="typed.js-master/js/typed.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/vendors/scrolloverflow.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/jquery.fullPage.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/vendors/jquery.easings.min.js"></script>
-  <script src="script.js"></script>
-
+    <div class="pure-menu pure-menu-horizontal" id="menu">
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item" data-menuanchor="welcome-section">
+                <a class="pure-menu-link" href="#welcome-section">Home</a>
+            </li>
+            <li class="pure-menu-item" data-menuanchor="about-section">
+                <a class="pure-menu-link" href="#about-section">About Me</a>
+            </li>
+            <li class="pure-menu-item" data-menuanchor="skills-section">
+                <a class="pure-menu-link" href="#skills-section">Skills</a>
+            </li>
+            <li class="pure-menu-item" data-menuanchor="projects-section">
+                <a class="pure-menu-link" href="#projects-section">Projects</a>
+            </li>
+            <li class="pure-menu-item" data-menuanchor="contact-section">
+                <a class="pure-menu-link" href="#contact-section">Contact</a>
+            </li>
+            <li class="pure-menu-item">
+                <a class="pure-menu-link" href="#">Resume</a>
+            </li>
+        </ul>
+    </div>
+    <div id="wrapper">
+        <section class="section" data-anchor="welcome-section" id="welcome">
+            <div class="pure-u-1" id="welcome-box">
+                <h1><span id="welcome-typer"></span></h1>
+                <div id="typed-strings">
+                    <p>Welcome.<br>
+                    <strong>My name is Emilie :)</strong></p>
+                    <p>I &lt;3 to build things for the web.</p>
+                    <p>Have a look around.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section about" data-anchor="about-section">
+            <div class="pure-g" id="about-me">
+                <div class="pure-u-1-2">
+                    <h2 class="h2-about">&lt; About Me /&gt;</h2>
+                    <p class="p-about">I am a Seattle-based web developer with
+                    a not-so-traditional tech background. In my past lives I've
+                    been an Account Manager, a Marketing Coordinator and a
+                    Pilates Instructor.</p>
+                </div>
+                <div class="pure-u-1-2 text-right">
+                    <p class="p-about">I strive to create meaningful web
+                    applications that are functional, informative, and
+                    aesthetically pleasing for the user drawing from my art
+                    education and several years of experience in sales and
+                    marketing. As a creative thinker and problem solver, I can
+                    close the gaps between clients and companies.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section" data-anchor="skills-section">
+            <div class="pure-g" id="skills-list">
+                <div class="pure-u-1">
+                    <h3>TECHNICAL SKILLS</h3>
+                </div>
+                <div class="pure-u-1-3">
+                    <h4>LANGUAGES</h4>
+                    <p>CSS3, HTML5, SQL, Ruby, JavaScript</p>
+                    <h4>FRAMEWORKS</h4>
+                    <p>Rspec, React, Angular, Rails, Express, Node</p>
+                </div>
+                <div class="pure-u-1-3">
+                    <h4>LIBRARIES</h4>
+                    <p>Bootstrap, Bcrypt, Purecss, jQuery</p>
+                    <h4>DATABASES</h4>
+                    <p>NoSQL, ActiveRecord, Mongoose, MongoDB, Sequelize,
+                    PostgreSQL</p>
+                </div>
+                <div class="pure-u-1-3">
+                    <h4>OTHER</h4>
+                    <p>Agile, TDD, JSON, AJAX, Sessions, Authentication,
+                    Encryption, RESTful Routing, Heroku, GitHub</p>
+                </div>
+            </div>
+        </section>
+        <section class="section" data-anchor="projects-section">
+            <div class="pure-g">
+                <div class="slide" data-anchor="slide1">
+                    <div class="pure-u-1">
+                        <div class="slide-content">                   
+                            <h1 class="title">PORTOFOLIO</h1>
+                            <p>Feel free to check me out on LinkedIn, Github, GA
+                            Profiles or follow the arrow to check out my
+                            portofolio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!--     </section>
+  <section class="section">   -->
+            <div class="pure-g">
+                <div class="slide" data-anchor="slide2">
+                  <div class="slide-content">
+                    <div class="pure-u-1-2">
+                        <h3 class="title">WHAT'S THAT?</h3><span><a href=
+                        "http://www.hackathon.io/what-s-that2"><i aria-hidden=
+                        "true" class="fa fa-globe sm-icon"></i></a></span>
+                        <span><a href=
+                        "https://github.com/emilieg/whatsinthis"><i aria-hidden="true"
+                        class="fa fa-code-fork sm-icon"></i></a></span>
+                        <span><a href=
+                        "https://youtu.be/1Sst23oGZE8"><i aria-hidden="true"
+                        class="fa fa-youtube-play sm-icon"></i></a></span>
+                        <p>An app that translates scientific ingredient
+                        language into simple terms. Scan food, cleaning, and
+                        personal products by barcode and get detailed
+                        information about the ingredients.</p>
+                        <p><i aria-hidden="true" class=
+                        "fa fa-users icon-sm"></i> This app was a group
+                        collaboration at the AngelHack Hackathon Seattle. We
+                        won 2nd place overall as well as the Code for Impact
+                        award.</p>
+                        <p><span><img class="pure-img firebase" src=
+                        "pictures/devicons-firebase.png"></span><i class=
+                        "devicon-html5-plain icon"></i><i class=
+                        "devicon-css3-plain icon"></i><i class=
+                        "devicon-javascript-plain icon"></i><i class=
+                        "devicon-nodejs-plain icon"></i><i class=
+                        "devicon-angularjs-plain icon"></i><span><img class=
+                        "pure-img firebase" src=
+                        "pictures/devicons-swift.png"></span></p>
+                    </div>
+                    <div class="pure-u-1-2"><img alt="redbull-ingredients"
+                    class="pure-img" id="redbull-img" src=
+                    "pictures/whats-that-phone.png"></div>
+                  </div>  
+                </div>
+            </div>
+            <div class="pure-g">
+                <div class="slide" data-anchor="slide3">
+                  <div class="slide-content">
+                    <div class="pure-u-1-2">
+                        <h3 class="title">WINO911</h3><span><a href=
+                        "https://wino911.herokuapp.com/"><i aria-hidden="true"
+                        class="fa fa-globe sm-icon"></i></a></span>
+                        <span><a href=
+                        "https://github.com/emilieg/Wino911"><i aria-hidden=
+                        "true" class="fa fa-code-fork sm-icon"></i></a></span>
+                        <p>Wino911 provides you with directions to the closest
+                        wine bar. A local temperature display helps you decide
+                        whether you should drink red or white. This is a full
+                        stack node.js app that features user auth and full CRUD
+                        capability.</p>
+                        <p><i class=
+                        "devicon-javascript-plain icon"></i><i class=
+                        "devicon-nodejs-plain icon"></i> <i class=
+                        "devicon-postgresql-plain icon"></i> ExpressJS</p>
+                    </div>
+                    <div class="pure-u-1-2"><img alt="image-project" class=
+                    "pure-img" src="pictures/wino911.png"></div>
+                  </div>  
+                </div>
+            </div>
+            <div class="pure-g">
+                <div class="slide" data-anchor="slide4">
+                  <div class="slide-content">
+                    <div class="pure-u-1-2">
+                        <h3 class="title">CAPPSTONE</h3><span><a href=
+                        "http://cappstone.herokuapp.com/"><i aria-hidden="true"
+                        class="fa fa-globe sm-icon"></i></a></span>
+                        <span><a href=
+                        "https://github.com/emilieg/cappstone"><i aria-hidden=
+                        "true" class="fa fa-code-fork sm-icon"></i></a></span>
+                        <p>Cappstone is an app that helps you track all
+                        activities related to your job search. Check for
+                        upcoming appointments, add contacts, and add notes
+                        about meetings.</p>
+                        <p><i aria-hidden="true" class=
+                        "fa fa-users icon-sm"></i> This app was build in Ruby
+                        on Rails as a group initiative with 3 other developers
+                        in 4 days.</p>
+                        <p><i class="devicon-html5-plain icon"></i><i class=
+                        "devicon-css3-plain icon"></i> <i class=
+                        "devicon-javascript-plain icon"></i><i class=
+                        "devicon-jquery-plain icon"></i><i class=
+                        "devicon-ruby-plain icon"></i><i class=
+                        "devicon-rails-plain icon"></i></p>
+                    </div>
+                    <div class="pure-u-1-2"><img alt="image-project" class=
+                    "pure-img" src="pictures/cappstone.png"></div>
+                  </div>  
+                </div>
+            </div>
+            <div class="pure-g">
+                <div class="slide" data-anchor="slide5">
+                  <div class="slide-content">
+                    <div class="pure-u-1-2">
+                        <h3 class="title">STUCK IN THE MUD</h3><span><a href=
+                        "http://emilieg.github.io/stuck-in-the-mud/"><i aria-hidden="true"
+                        class="fa fa-globe sm-icon"></i></a></span>
+                        <span><a href=
+                        "https://github.com/emilieg/stuck-in-the-mud"><i aria-hidden="true"
+                        class="fa fa-code-fork sm-icon"></i></a></span>
+                        <p>Stuck in the Mud is a dice game where two players
+                        compete for the highest score. They are only able to
+                        score points when their roll does not include any twos
+                        or fives.</p>
+                        <p><!-- technology used -->
+                         <i class="devicon-html5-plain icon"></i><i class=
+                        "devicon-css3-plain icon"></i><i class=
+                        "devicon-javascript-plain icon"></i><i class=
+                        "devicon-jquery-plain icon"></i></p>
+                    </div>
+                    <div class="pure-u-1-2"><img alt="image-project" class=
+                    "pure-img" src="mud-in-screen.png"></div>
+                  </div>  
+                </div>
+            </div>
+        </section>
+        <section class="section" data-anchor="contact-section">
+            <div class="pure-g">
+                <div class="pure-u-1-3"></div>
+                <div class="pure-u-1-3">
+                    <h1>GET IN TOUCH</h1>
+                    <p>Email: <i aria-hidden="true" class=
+                    "fa fa-envelope-o icon"></i> emiliegerberharris@gmail.com
+                    <a href="https://github.com/emilieg" target="_blank"><i class=
+                    "devicon-github-plain icon"></i></a> <a href=
+                    "https://www.linkedin.com/in/emiliegerber" target=
+                    "_blank"><i aria-hidden="true" class=
+                    "fa fa-linkedin-square icon"></i></a> Resume: <i class=
+                    "fa fa-file-pdf-o icon"></i></p>
+                </div>
+                <div class="pure-u-1-3"></div>
+            </div>
+        </section>
+    </div>  
+    <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js">
+    </script> 
+    <script src="typed.js-master/js/typed.js">
+    </script> 
+    <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/vendors/scrolloverflow.min.js">
+    </script> 
+    <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/jquery.fullPage.min.js">
+    </script> 
+    <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/vendors/jquery.easings.min.js">
+    </script> 
+    <script src="script.js">
+    </script>
 </body>
 </html>
