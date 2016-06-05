@@ -28,6 +28,9 @@ section {
   margin: 0 auto;
 }
 
+h1, h2, h3, h4{
+  color: #3C3D3E;
+}
 .about {
   background-image: url('gplaypattern.png');
   width: 100%;
@@ -39,24 +42,27 @@ section {
   display: table-cell;
   vertical-align: middle;
   margin: 0 auto;
+  padding-left: 15vh;
+  padding-right: 15vh;
 }
 
 .h2-about {
-  text-align: center;
-  margin-left: 12.25vh;
+  text-align: left;
 }
 
 .p-about {
-  margin-right: 12.25vh;
+  font-size: 2vh;
+  text-align: left
 }
 
 
-#skills {
+#skills-list {
   width: 100%;
   height: 100vh;
   display: table-cell;
   vertical-align: middle;
   margin: 0 auto;
+  padding: 15vh;
 }
 
 #portofolio {
@@ -71,8 +77,21 @@ section {
   display: none;
 }
 
+.fp-controlArrow.fp-next {
+  margin-left: 10vh;
+  right: 0vh;
+}
+
 .section {
   text-align: left;
+}
+
+.title {
+  display: inline-block;
+}
+
+#redbull-img {
+  height: 375px;
 }
 
 #contact {
@@ -81,8 +100,8 @@ section {
   display: table-cell;
   vertical-align: middle;
   margin: 0 auto;
+  text-align: center;
 }
-
 
 
 .element {
@@ -118,18 +137,17 @@ li:last-child {
   color: #FF847C;;
 } 
 
-/*.pure-u-1.welcome{
-  margin-top: 250px;
-}*/
 
 h1 {
   font-family: 'Inconsolata';
   vertical-align: middle;
   text-align: center;
+  color: #3C3D3E;
 }
 
 p {
   font-family: 'Droid Sans', sans-serif;
+  color: #3C3D3E;
 }
 
 
@@ -143,19 +161,32 @@ p {
   display: table;
   margin: 0;
   max-width: none;
+  border-collapse: separate;
+  border-spacing: 10px;
 }
 
 
-.pure-u-1.icons {
-  text-align: center;
+.icon {
+  font-size: 3vh;
+ /* color: #3C3D3E; computer screen grey*/
+  color: #f5f5f5;
+  margin: .5vh;
 }
 
-.icons{
-  font-size: 50px;
-  padding-top: 50px;
-  word-spacing: 10px;
+.sm-icon {
   color: #E84A5F;
+  font-size: 2vh;
 }
+
+.icon-sm {
+  font-size: 2vh;
+  color: #f5f5f5; 
+}
+
+.fa {
+margin: .5vh;
+}
+
 
 .typed-cursor{
     opacity: 1;
