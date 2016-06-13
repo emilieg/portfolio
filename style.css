@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box; 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 body {
@@ -16,9 +18,7 @@ body {
 
 #welcome-box {
   width: 100%;
-  height: 100vh;
   max-width: none;  
-  margin-top: 50vh;
 }
 
 h1, h2, h3, h4{
@@ -35,13 +35,13 @@ h1, h2, h3, h4{
   display: table-cell;
   vertical-align: middle;
   margin: 0 auto;
-  padding-left: 15vh;
-  padding-right: 15vh;
+/*  padding-left: 15vh;
+  padding-right: 15vh;*/
 }
 
 .portrait {
   width: 300px;
-  border-radius: 150px;
+  /*border-radius: 150px;*/
 }
 
 h2 {
@@ -98,6 +98,7 @@ h2 {
 
 #redbull-img {
   height: 375px;
+  margin: auto;
 }
 
 #contact {
@@ -150,10 +151,6 @@ a {
 }
 
 
-
-
-
-
 h1 {
   font-family: 'Inconsolata';
   vertical-align: middle;
@@ -183,7 +180,7 @@ p {
 
 
 .icon {
-  font-size: 3vh;
+  font-size: 2.5vh;
  /* color: #3C3D3E; computer screen grey*/
   color: #f5f5f5;
   margin: .5vh;
@@ -199,8 +196,20 @@ p {
   color: #f5f5f5; 
 }
 
+.lg-icon {
+  color: #E84A5F;
+  font-size: 3vh;
+}
+
 .fa {
 margin: .5vh;
+}
+
+.pure-button {
+  border-radius: 8px;
+  background-color: #E84A5F;
+  color: white;
+
 }
 
 .firebase {
@@ -208,6 +217,24 @@ margin: .5vh;
   display: inline-block;
 }
 
+footer {
+  text-align: center;
+  font-size: 3.5vh;
+  color: #E84A5F;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+}
+
+.footer-li {
+  display: inline;
+  text-decoration: none;
+ /* -webkit-text-shadow: 7px 7px 14px -3px rgba(255,255,255,0.68);
+  -moz-text-shadow: 7px 7px 14px -3px rgba(255,255,255,0.68);*/
+  text-shadow: 7px 7px 14px -3px rgba(255,255,255,0.68);
+}
 
 .typed-cursor{
     opacity: 1;

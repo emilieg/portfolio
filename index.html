@@ -6,8 +6,6 @@
     <link href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css" rel=
     "stylesheet">
     <!-- <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/base-min.css"> -->
-    <link href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css"
-    rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700'
     rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700'
@@ -20,6 +18,8 @@
     <link href=
     "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
     rel="stylesheet"><!-- Internal Stylesheet -->
+    <link href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css"
+    rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
@@ -62,21 +62,21 @@
                 <div class="pure-u-1">
                     <h2 class="h2-about"> ABOUT ME </h2>
                 </div>
-                <div class="pure-u-1-2">
-                    <img src="pictures/portrait1.png" class="portrait">
-                    <p class="p-about">I am a Seattle-based web developer with
-                    a not-so-traditional tech background. In my past lives I've
-                    been an Account Manager, a Marketing Coordinator and a
-                    Pilates Instructor.</p>
-                </div>
-                <div class="pure-u-1-2 text-right">
-                    <p class="p-about">I strive to create meaningful web
-                    applications that are functional, informative, and
-                    aesthetically pleasing for the user drawing from my art
-                    education and several years of experience in sales and
-                    marketing. As a creative thinker and problem solver, I can
-                    close the gaps between clients and companies.</p>
-                </div>
+                <div class="inside-about">
+                    <div class="pure-u-1-4">&nbsp;</div>
+                    <div class="pure-u-1-4">
+                        <img src="pictures/portrait-crp.png" class="portrait">
+                    </div>
+                    <div class="pure-u-1-4 text-right">
+                        <p class="p-about"> I am a Seattle-based web developer with
+                        a not-so-traditional tech background. In my past lives I've
+                        been an Account Manager, a Marketing Coordinator and a
+                        Pilates Instructor. I strive to create meaningful web
+                        applications that are functional, informative, and
+                        aesthetically pleasing for the user drawing from my past experiences. As a creative thinker and problem solver, I can
+                        close the gap between clients and companies.</p>
+                    </div>
+            </div>
             </div>
         </section>
         <section class="section" data-anchor="skills-section">
@@ -110,7 +110,7 @@
                     <div class="pure-u-1">
                         <div class="slide-content">                   
                             <h2 class="title">PORTOFOLIO</h2>
-                            <p>Feel free to check me out on LinkedIn, <a href="https://github.com/emilieg">Github</a>, <a href="https://profiles.generalassemb.ly/profiles/emilie-gerber">GA
+                            <p>Feel free to check me out on <a href="https://www.linkedin.com/in/emiliegerber">LinkedIn</a>, <a href="https://github.com/emilieg">Github</a>, <a href="https://profiles.generalassemb.ly/profiles/emilie-gerber">GA
                             Profiles </a> or follow the arrow to check out my
                             portofolio.</p>
                         </div>
@@ -122,24 +122,7 @@
                 <div class="slide" data-anchor="slide2">
                   <div class="slide-content">
                     <div class="pure-u-1-2">
-                        <h3 class="title">WHAT'S THAT?</h3><span><a href=
-                        "http://www.hackathon.io/what-s-that2"><i aria-hidden=
-                        "true" class="fa fa-globe sm-icon"></i></a></span>
-                        <span><a href=
-                        "https://github.com/emilieg/whatsinthis"><i aria-hidden="true"
-                        class="fa fa-code-fork sm-icon"></i></a></span>
-                        <span><a href=
-                        "https://youtu.be/1Sst23oGZE8"><i aria-hidden="true"
-                        class="fa fa-youtube-play sm-icon"></i></a></span>
-                        <p>An app that translates scientific ingredient
-                        language into simple terms. Scan food, cleaning, and
-                        personal products by barcode and get detailed
-                        information about the ingredients.</p>
-                        <p><i aria-hidden="true" class=
-                        "fa fa-users icon-sm"></i> This app was a group
-                        collaboration at the AngelHack Hackathon Seattle. We
-                        won 2nd place overall as well as the Code for Impact
-                        award.</p>
+                        <h3 class="title">WHAT'S THAT?</h3>
                         <p><span><img class="pure-img firebase" src=
                         "pictures/devicons-firebase.png"></span><i class=
                         "devicon-html5-plain icon"></i><i class=
@@ -149,6 +132,24 @@
                         "devicon-angularjs-plain icon"></i><span><img class=
                         "pure-img firebase" src=
                         "pictures/devicons-swift.png"></span></p>
+                        <p>An app that translates scientific ingredient
+                        language into simple terms. Scan food, cleaning, and
+                        personal products by barcode and get detailed
+                        information about the ingredients.</p>
+                        <p><i aria-hidden="true" class=
+                        "fa fa-users icon-sm"></i> This app was a group
+                        collaboration at the AngelHack Hackathon Seattle. We
+                        won 2nd place overall as well as the Code for Impact
+                        award.</p>
+                        <span><a href=
+                        "http://www.hackathon.io/what-s-that2"><i aria-hidden=
+                        "true" class="fa fa-globe sm-icon pure-button"></i></a></span>
+                        <span><a href=
+                        "https://github.com/emilieg/whatsinthis"><i aria-hidden="true"
+                        class="fa fa-code-fork sm-icon pure-button"></i></a></span>
+                        <span><a href=
+                        "https://youtu.be/1Sst23oGZE8"><i aria-hidden="true"
+                        class="fa fa-youtube-play sm-icon pure-button"></i></a></span>
                     </div>
                     <div class="pure-u-1-2"><img alt="redbull-ingredients"
                     class="pure-img" id="redbull-img" src=
@@ -160,21 +161,20 @@
                 <div class="slide" data-anchor="slide3">
                   <div class="slide-content">
                     <div class="pure-u-1-2">
-                        <h3 class="title">WINO911</h3><span><a href=
-                        "https://wino911.herokuapp.com/"><i aria-hidden="true"
-                        class="fa fa-globe sm-icon"></i></a></span>
-                        <span><a href=
-                        "https://github.com/emilieg/Wino911"><i aria-hidden=
-                        "true" class="fa fa-code-fork sm-icon"></i></a></span>
+                        <h3 class="title">WINO911</h3>
+                        <p><i class="devicon-javascript-plain icon"></i><i class=
+                        "devicon-nodejs-plain icon"></i> <i class=
+                        "devicon-postgresql-plain icon"></i></p>
                         <p>Wino911 provides you with directions to the closest
                         wine bar. A local temperature display helps you decide
                         whether you should drink red or white. Save your favorite bar to a favorites list. This is a full
                         stack node.js app that features user auth and full CRUD
                         capability.</p>
-                        <p><i class=
-                        "devicon-javascript-plain icon"></i><i class=
-                        "devicon-nodejs-plain icon"></i> <i class=
-                        "devicon-postgresql-plain icon"></i> ExpressJS</p>
+                        <span><a href="https://wino911.herokuapp.com/"><i aria-hidden="true"
+                        class="fa fa-globe sm-icon pure-button"></i></a></span>
+                        <span><a href=
+                        "https://github.com/emilieg/Wino911"><i aria-hidden=
+                        "true" class="fa fa-code-fork sm-icon pure-button"></i></a></span>
                     </div>
                     <div class="pure-u-1-2"><img alt="image-project" class=
                     "pure-img" src="pictures/wino911.png"></div>
@@ -185,12 +185,9 @@
                 <div class="slide" data-anchor="slide4">
                   <div class="slide-content">
                     <div class="pure-u-1-2">
-                        <h3 class="title">CAPPSTONE</h3><span><a href=
-                        "http://cappstone.herokuapp.com/"><i aria-hidden="true"
-                        class="fa fa-globe sm-icon"></i></a></span>
-                        <span><a href=
-                        "https://github.com/emilieg/cappstone"><i aria-hidden=
-                        "true" class="fa fa-code-fork sm-icon"></i></a></span>
+                        <h3 class="title">CAPPSTONE</h3>
+                        <p><i class="devicon-html5-plain icon"></i><i class="devicon-css3-plain icon"></i> <i class="devicon-javascript-plain icon"></i><i class="devicon-jquery-plain icon"></i><i class="devicon-ruby-plain icon"></i><i class=
+                        "devicon-rails-plain icon"></i></p>
                         <p>Cappstone is an app that helps you track all
                         activities related to your job search. Check for
                         upcoming appointments, add contacts, and add notes
@@ -199,12 +196,12 @@
                         "fa fa-users icon-sm"></i> This app was build in Ruby
                         on Rails as a group initiative with 3 other developers
                         in 4 days.</p>
-                        <p><i class="devicon-html5-plain icon"></i><i class=
-                        "devicon-css3-plain icon"></i> <i class=
-                        "devicon-javascript-plain icon"></i><i class=
-                        "devicon-jquery-plain icon"></i><i class=
-                        "devicon-ruby-plain icon"></i><i class=
-                        "devicon-rails-plain icon"></i></p>
+                        <span><a href=
+                        "http://cappstone.herokuapp.com/"><i aria-hidden="true"
+                        class="fa fa-globe sm-icon pure-button"></i></a></span>
+                        <span><a href=
+                        "https://github.com/emilieg/cappstone"><i aria-hidden=
+                        "true" class="fa fa-code-fork sm-icon pure-button"></i></a></span>
                     </div>
                     <div class="pure-u-1-2"><img alt="image-project" class=
                     "pure-img" src="pictures/cappstone.png"></div>
@@ -215,21 +212,21 @@
                 <div class="slide" data-anchor="slide5">
                   <div class="slide-content">
                     <div class="pure-u-1-2">
-                        <h3 class="title">STUCK IN THE MUD</h3><span><a href=
-                        "http://emilieg.github.io/stuck-in-the-mud/"><i aria-hidden="true"
-                        class="fa fa-globe sm-icon"></i></a></span>
-                        <span><a href=
-                        "https://github.com/emilieg/stuck-in-the-mud"><i aria-hidden="true"
-                        class="fa fa-code-fork sm-icon"></i></a></span>
-                        <p>Stuck in the Mud is a dice game where two players
-                        compete for the highest score. They are only able to
-                        score points when their roll does not include any twos
-                        or fives.</p>
+                        <h3 class="title">STUCK IN THE MUD</h3>
                         <p><!-- technology used -->
                          <i class="devicon-html5-plain icon"></i><i class=
                         "devicon-css3-plain icon"></i><i class=
                         "devicon-javascript-plain icon"></i><i class=
                         "devicon-jquery-plain icon"></i></p>
+                        <p>Stuck in the Mud is a dice game where two players
+                        compete for the highest score. They are only able to
+                        score points when their roll does not include any twos
+                        or fives.</p>
+                        <span><a href=
+                        "http://emilieg.github.io/stuck-in-the-mud/"><i aria-hidden="true"
+                        class="fa fa-globe sm-icon pure-button"></i></a></span>
+                        <span><a href="https://github.com/emilieg/stuck-in-the-mud"><i aria-hidden="true"
+                        class="fa fa-code-fork sm-icon pure-button"></i></a></span>
                     </div>
                     <div class="pure-u-1-2"><img alt="image-project" class=
                     "pure-img" src="mud-in-screen.png"></div>
@@ -242,17 +239,39 @@
                 <div class="pure-u-1-3"></div>
                 <div class="pure-u-1-3">
                     <h2>GET IN TOUCH</h2>
-                    <p>Email: <i aria-hidden="true" class=
-                    "fa fa-envelope-o icon"></i> emiliegerberharris@gmail.com
-                    <a href="https://github.com/emilieg" target="_blank"><i class=
-                    "devicon-github-plain icon"></i></a> <a href=
-                    "https://www.linkedin.com/in/emiliegerber" target=
-                    "_blank"><i aria-hidden="true" class=
-                    "fa fa-linkedin-square icon"></i></a> Resume: <i class=
-                    "fa fa-file-pdf-o icon"></i></p>
+                    <form action="https://formspree.io/emiliegerberharris@gmail.com"
+                          method="POST" class="pure-form pure-form-aligned">
+                        <fieldset>
+                            <div class="pure-control-group">
+                                <label> NAME </label>  
+                                <input type="text" name="name" placeholder="Name">
+                            </div>
+                            <div class="pure-control-group">    
+                                <label> EMAIL </label>
+                                <input type="email" name="_replyto" placeholder="Email">
+                            </div>
+                            <div class="pure-control-group"> 
+                            <label> MESSAGE </label>
+                                <textarea name="message" placeholder="Message"></textarea> 
+                            </div>
+                            <div class="pure-controls">
+                                <button type="submit" class="pure-button" value="Send">Submit</button>
+                            </div>
+                        </fieldset>  
+                    </form>
                 </div>
-                <div class="pure-u-1-3"></div>
             </div>
+            <div class="pure-g">
+                <div class="pure-u-1-1">
+                   <footer>
+                      <ul>
+                        <li class="footer-li"><a href="https://github.com/emilieg"><i class="fa fa-github lg-icon" aria-hidden="true"></i></a></li>
+                        <li class="footer-li"><a href="https://www.linkedin.com/in/emiliegerber"><i class="fa fa-linkedin footer-icons lg-icon" aria-hidden="true"></i></a></li>
+                        <li class="footer-li"><a href="https://resume.creddle.io/resume/ecxilz1oj01"><i class="fa fa-file-pdf-o lg-icon" aria-hidden="true"></i></a></li>
+                      </ul> 
+                   </footer> 
+                </div>
+            </div> 
         </section>
     </div>  
     <script src=
