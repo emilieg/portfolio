@@ -110,7 +110,6 @@ h2 {
   text-align: center;
 }
 
-
 .element {
   color: black;
   font-size: 50px;
@@ -149,7 +148,6 @@ a {
     /*text-decoration: underline;*/
     font-weight: bolder;
 }
-
 
 h1 {
   font-family: 'Inconsolata';
@@ -219,20 +217,20 @@ margin: .5vh;
 
 footer {
   text-align: center;
-  font-size: 3.5vh;
+  font-size: 2vh;
   color: #E84A5F;
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 100px;
+  height: 150px;
   width: 100%;
 }
 
 .footer-li {
   display: inline;
   text-decoration: none;
- /* -webkit-text-shadow: 7px 7px 14px -3px rgba(255,255,255,0.68);
-  -moz-text-shadow: 7px 7px 14px -3px rgba(255,255,255,0.68);*/
+  -webkit-text-shadow: 7px 7px 14px -3px rgba(255,255,255,0.68);
+  -moz-text-shadow: 7px 7px 14px -3px rgba(255,255,255,0.68);
   text-shadow: 7px 7px 14px -3px rgba(255,255,255,0.68);
 }
 
@@ -241,6 +239,10 @@ footer {
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
+}
+
+.footer-icon {
+  font-size: 50px;
 }
 @keyframes blink{
     0% { opacity:1; }
