@@ -1,9 +1,9 @@
 $(function(){
     $("#welcome-typer").typed({
-        strings: ["Welcome.", "My name is Emilie.", "I like building things for the web <3.", "Feel free to look around."],
-        stringsElement: $('#typed-strings'),
+        strings: ["Welcome.", "My name is Emilie :) ", "I <3 to build things for the web.", "Have a look around."],
+        // stringsElement: $('#typed-strings'),
         typeSpeed: 100,
-        contentType: 'html'
+        contentType: 'text'
     });
 });    
 
