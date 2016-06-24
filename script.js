@@ -1,9 +1,10 @@
 $(function(){
     $("#welcome-typer").typed({
-        strings: ["Welcome.", "My name is Emilie :) ", "I <3 to build things for the web.", "Have a look around."],
-        // stringsElement: $('#typed-strings'),
+        // strings: ["Welcome.", "My name is Emilie :) ", "I <3 to build things for the web.", "Have a look around."],
+        stringsElement: $('#typed-strings'),
         typeSpeed: 100,
-        contentType: 'text'
+        // contentType: 'text'
+        contentType: 'html'
     });
 });    
 
