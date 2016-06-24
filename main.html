@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- Compiled and minified CSS -->
+    <link href=
+    "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css"
+    rel="stylesheet">
+    <!-- <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/base-min.css"> -->
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700'
+    rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700'
+    rel='stylesheet' type='text/css'>
+    <link href=
+    "https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/jquery.fullPage.min.css"
+    rel='stylesheet'>
+    <link href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css"
+    rel="stylesheet"><!--  Font Awesome Icons -->
+    <link href=
+    "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+    rel="stylesheet"><!-- Internal Stylesheet -->
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper" id="menu">
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item" data-menuanchor=
+                    "welcome-section">
+                        <a class="pure-menu-link" href=
+                        "#welcome-section">Home</a>
+                    </li>
+                    <li class="pure-menu-item" data-menuanchor="about-section">
+                        <a class="pure-menu-link" href="#about-section">About
+                        Me</a>
+                    </li>
+                    <li class="pure-menu-item" data-menuanchor=
+                    "skills-section">
+                        <a class="pure-menu-link" href=
+                        "#skills-section">Skills</a>
+                    </li>
+                    <li class="pure-menu-item" data-menuanchor=
+                    "projects-section">
+                        <a class="pure-menu-link" href=
+                        "#projects-section">Projects</a>
+                    </li>
+                    <li class="pure-menu-item" data-menuanchor=
+                    "contact-section">
+                        <a class="pure-menu-link" href=
+                        "#contact-section">Contact</a>
+                    </li>
+                    <li class="pure-menu-item second-last">
+                        <a class="pure-menu-link" href=
+                        "pictures/Emilie_Gerber_Resume.pdf">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- <div class="container"> -->
+        <div id="wrapper">
+            <div class="section" data-anchor="welcome-section" id="welcome">
+                <div class="row">
+                    <div class="col s12" id="welcome-box">
+                        <h2><span id="welcome-typer"></span></h2>
+                        <div id="typed-strings">
+                            <p>Welcome.</p>
+                            <p>My name is Emilie :)</p>
+                            <p>I &lt;3 to build things for the web.</p>
+                            <p>Have a look around.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section about" data-anchor="about-section">
+              <div class="container">
+                <div class="row" id="about-me">
+                    <div class="col s12">
+                        <h2 class="h2-about">ABOUT ME</h2>
+                    </div>
+                    <div class="inside-about">
+                        <div class="col s12 m6">
+                        <img class="portrait" src=
+                        "pictures/portrait-crp.png"></div>
+                        <div class="col s12 m6">
+                            <p class="p-about">I am a Seattle-based web
+                            developer with a not-so-traditional tech
+                            background. In my past lives I've been an Account
+                            Manager, a Marketing Coordinator and a Pilates
+                            Instructor. I strive to create meaningful web
+                            applications that are functional, informative, and
+                            aesthetically pleasing for the user drawing from my
+                            past experiences. As a creative thinker and problem
+                            solver, I can close the gap between clients and
+                            companies.</p>
+                        </div>
+                    </div>
+                </div>
+              </div>  
+            </div>
+            <div class="section" data-anchor="skills-section">
+              <div class="container">
+                <div class="row" id="skills-list">
+                    <div class="col s12">
+                        <h2>TECHNICAL SKILLS</h2>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <h4>LANGUAGES</h4>
+                        <p>CSS3, HTML5, SQL, Ruby, JavaScript</p>
+                        <h4>FRAMEWORKS</h4>
+                        <p>Rspec, React, Angular, Rails, Express, Node</p>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <h4>LIBRARIES</h4>
+                        <p>Bootstrap, Bcrypt, Purecss, jQuery</p>
+                        <h4>DATABASES</h4>
+                        <p>NoSQL, ActiveRecord, Mongoose, MongoDB, Sequelize,
+                        PostgreSQL</p>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <h4>OTHER</h4>
+                        <p>Agile, TDD, JSON, AJAX, Sessions, Authentication,
+                        Encryption, RESTful Routing, Heroku, GitHub</p>
+                    </div>
+                </div>
+              </div>  
+            </div>
+            <div class="section" data-anchor="projects-section">
+                <div class="row">
+                <h2 class="projects-title"> PROJECTS </h2>
+                    <div class="slide" data-anchor="slide1">
+                        <div class="slide-content">
+                            <div class="col s12 m12 l6">
+                                <h3 class="title">WHAT'S THAT?</h3>
+                                <p><span><img class="firebase" src=
+                                "pictures/devicons-firebase.png"></span><i class="devicon-html5-plain icon"></i><i class="devicon-css3-plain icon"></i><i class="devicon-javascript-plain icon"></i><i class="devicon-nodejs-plain icon"></i><i class="devicon-angularjs-plain icon"></i><span><img class="pure-img firebase"
+                                src="pictures/devicons-swift.png"></span></p>
+                                <p>An app that translates scientific ingredient
+                                language into simple terms. Scan food,
+                                cleaning, and personal products by barcode and
+                                get detailed information about the
+                                ingredients.</p>
+                                <p><i aria-hidden="true" class=
+                                "fa fa-users icon-sm"></i> This app was a group
+                                collaboration at the AngelHack Hackathon
+                                Seattle. We won 2nd place overall as well as
+                                the Code for Impact award.</p><span><a href=
+                                "http://www.hackathon.io/what-s-that2" target=
+                                "_blank"><i aria-hidden="true" class=
+                                "fa fa-globe sm-icon pure-button"></i></a></span>
+                                <span><a href=
+                                "https://github.com/emilieg/whatsinthis"
+                                target="_blank"><i aria-hidden="true" class=
+                                "fa fa-code-fork sm-icon pure-button"></i></a></span>
+                                <span><a href="https://youtu.be/1Sst23oGZE8"
+                                target="_blank"><i aria-hidden="true" class=
+                                "fa fa-youtube-play sm-icon pure-button"></i></a></span>
+                            </div>
+                            <div class="col s12 m12 l6 iphone"><img alt=
+                            "redbull-ingredients" class="responsive-img" id=
+                            "redbull-img" src=
+                            "pictures/whats-that-phone.png"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="slide" data-anchor="slide2">
+                        <div class="slide-content">
+                            <div class="col s12 m12 l6">
+                                <h3 class="title">WINO911</h3>
+                                <p><i class=
+                                "devicon-javascript-plain icon"></i><i class=
+                                "devicon-nodejs-plain icon"></i> <i class=
+                                "devicon-postgresql-plain icon"></i></p>
+                                <p>Wino911 provides you with directions to the
+                                closest wine bar. A local temperature display
+                                helps you decide whether you should drink red
+                                or white. Save your favorite bar to a favorites
+                                list. This is a full stack node.js app that
+                                features user auth and full CRUD
+                                capability.</p><span><a href=
+                                "https://wino911.herokuapp.com/" target=
+                                "_blank"><i aria-hidden="true" class=
+                                "fa fa-globe sm-icon pure-button"></i></a></span>
+                                <span><a href=
+                                "https://github.com/emilieg/Wino911" target=
+                                "_blank"><i aria-hidden="true" class=
+                                "fa fa-code-fork sm-icon pure-button"></i></a></span>
+                            </div>
+                            <div class="col s12 m12 l6"><img alt=
+                            "image-project" class="responsive-img" src=
+                            "pictures/wino911.png"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="slide" data-anchor="slide3">
+                        <div class="slide-content">
+                            <div class="col s12 m12 l6">
+                                <h3 class="title">CAPPSTONE</h3>
+                                <p><i class=
+                                "devicon-html5-plain icon"></i><i class=
+                                "devicon-css3-plain icon"></i> <i class=
+                                "devicon-javascript-plain icon"></i><i class=
+                                "devicon-jquery-plain icon"></i><i class=
+                                "devicon-ruby-plain icon"></i><i class=
+                                "devicon-rails-plain icon"></i></p>
+                                <p>Cappstone is an app that helps you track all
+                                activities related to your job search. Check
+                                for upcoming appointments, add contacts, and
+                                add notes about meetings.</p>
+                                <p><i aria-hidden="true" class=
+                                "fa fa-users icon-sm"></i> This app was build
+                                in Ruby on Rails as a group initiative with 3
+                                other developers in 4 days.</p>
+                                <!--                         <span><a href=
+                        "http://cappstone.herokuapp.com/" target="_blank"><i aria-hidden="true"
+                        class="fa fa-globe sm-icon pure-button"></i></a></span> -->
+                                <span><a href=
+                                "https://github.com/emilieg/cappstone" target=
+                                "_blank"><i aria-hidden="true" class=
+                                "fa fa-code-fork sm-icon pure-button"></i></a></span>
+                            </div>
+                            <div class="col s12 m12 l6"><img alt=
+                            "image-project" class="responsive-img" src=
+                            "pictures/cappstone.png"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="slide" data-anchor="slide4">
+                        <div class="slide-content">
+                            <div class="col s12 m12 l6">
+                                <h3 class="title">STUCK IN THE MUD</h3>
+                                <p><!-- technology used -->
+                                 <i class=
+                                "devicon-html5-plain icon"></i><i class=
+                                "devicon-css3-plain icon"></i><i class=
+                                "devicon-javascript-plain icon"></i><i class=
+                                "devicon-jquery-plain icon"></i></p>
+                                <p>Stuck in the Mud is a dice game where two
+                                players compete for the highest score. They are
+                                only able to score points when their roll does
+                                not include any twos or
+                                fives.</p><span><a href="http://emilieg.github.io/stuck-in-the-mud/"
+                                target="_blank"><i aria-hidden="true" class=
+                                "fa fa-globe sm-icon pure-button"></i></a></span>
+                                <span><a href=
+                                "https://github.com/emilieg/stuck-in-the-mud"
+                                target="_blank"><i aria-hidden="true" class=
+                                "fa fa-code-fork sm-icon pure-button"></i></a></span>
+                            </div>
+                            <div class="col s12 m12 l6"><img alt=
+                            "image-project" class="responsive-img" src=
+                            "mud-in-screen.png"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section" data-anchor="contact-section">
+                <div class="row">
+                    <div class="col l8 offset-l2">
+                        <h2>GET IN TOUCH</h2>
+                        <form action=
+                        "https://formspree.io/emiliegerberharris@gmail.com"
+                        class="pure-form pure-form-aligned" method="post">
+                            <fieldset>
+                                <div class="pure-control-group">
+                                    <label>NAME</label> <input name="name"
+                                    placeholder="Name" type="text">
+                                </div>
+                                <div class="pure-control-group">
+                                    <label>EMAIL</label> <input name="_replyto"
+                                    placeholder="Email" type="email">
+                                </div>
+                                <div class="pure-control-group">
+                                    <label>MESSAGE</label> 
+                                    <textarea name="message" placeholder=
+                                    "Message"></textarea>
+                                </div>
+                                <div class="pure-controls">
+                                    <button class="pure-button" type="submit"
+                                    value="Send">Submit</button>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+             <footer>
+                  <ul>
+                      <li class="footer-li">
+                          <a class="footer-icon" href=
+                          "https://github.com/emilieg" target=
+                          "_blank"><i aria-hidden="true" class=
+                          "fa fa-github lg-icon"></i></a>
+                      </li>
+                      <li class="footer-li">
+                          <a class="footer-icon" href=
+                          "https://www.linkedin.com/in/emiliegerber"
+                          target="_blank"><i aria-hidden="true" class=
+                          "fa fa-linkedin footer-icons lg-icon"></i></a>
+                      </li>
+                      <li class="footer-li">
+                          <a class="footer-icon" href=
+                          "pictures/Emilie_Gerber_Resume.pdf" target=
+                          "_blank"><i aria-hidden="true" class=
+                          "fa fa-file-pdf-o lg-icon"></i></a>
+                      </li>
+                  </ul>
+                  <p>&copy; Emilie Gerber 2016</p>
+              </footer>
+            </div>
+        </div>
+          
+                   
+     
+
+    <!-- </div> -->
+    <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js">
+    </script> 
+    <script src="typed.js-master/js/typed.js">
+    </script> 
+    <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/vendors/scrolloverflow.min.js">
+    </script> 
+    <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/jquery.fullPage.min.js">
+    </script> 
+    <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/vendors/jquery.easings.min.js">
+    </script> <!-- Compiled and minified JavaScript -->
+     
+    <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js">
+    </script> 
+    <script src="script.js">
+    </script>
+</body>
+</html>
