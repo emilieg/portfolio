@@ -348,7 +348,8 @@ Tablet Devices
 <= 992px 
 */
 @media (max-width: 992px) {
-
+.menu-link {
+    font-size: 2.5vh;
 }
 /*  
 
