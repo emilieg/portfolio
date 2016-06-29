@@ -18,6 +18,7 @@ body {
 
 h1, h2, h3, h4{
   color: #3C3D3E;
+  text-align: center;
 }
 
 #welcome-box {
@@ -42,8 +43,9 @@ h1, h2, h3, h4{
   text-align: center;
 }
 
-h2 {
-text-align: center;
+.projects {
+  background-image: url('triangular.png');
+  width: 100%;
 }
 
 #skills-list {
@@ -212,7 +214,7 @@ text-align: center;
   }
 
   .sm-icon {
-    color: #E84A5F;
+    color: white;
     font-size: 2vh;
   }
 
@@ -222,19 +224,17 @@ text-align: center;
   }
 
   .lg-icon {
-    color: #E84A5F;
+    color: #FF847C;
     font-size: 3vh;
   }
 
-  .fa {
-  margin: .5vh;
-  }
-
+.btn {
+  background-color: #FF847C !important;
+}
   .pure-button {
     border-radius: 8px;
-    background-color: #E84A5F;
+    background-color: #FF847C;
     color: white;
-
   }
 
   .firebase {
@@ -244,7 +244,7 @@ text-align: center;
 
   footer {
     text-align: center;
-    color: #E84A5F;
+    color: #FF847C;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -315,6 +315,30 @@ text-align: center;
     padding: 0px 7.5px 5px 7.5px;
     border: 1px solid;
   }
+  .slide-content {
+  margin: 0 auto;
+  padding: 5vh;
+  }
+  #redbull-img {
+    height: 200px;
+    padding-bottom: 25px;
+    margin-top: 5px;
+  }
+
+  .fp-controlArrow.fp-next {
+    right: 15px;
+    border-width: 25px 0 25px 22px;
+    padding-left: 0vh;
+  }
+  .fp-controlArrow.fp-prev {
+    right: 15px;
+    border-width: 25px 22px 25px 0; 
+    padding-right: 0vh; 
+  }  
+  .projects-title {
+    top: .5em;
+  }
+
 
 
 }
