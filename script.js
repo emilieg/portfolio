@@ -17,8 +17,9 @@ $(function(){
         slidesNavigation: true,
         css3: true,
         scrollingSpeed: 1000,
-        responsiveWidth: 800,
-        responsiveHeight: 300
+        // responsiveWidth: 800,
+        // responsiveHeight: 300,
+        // scrollOverflow: true
     });
 });
 
