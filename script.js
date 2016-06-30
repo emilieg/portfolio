@@ -19,7 +19,7 @@ $(function(){
         scrollingSpeed: 1000,
         // responsiveWidth: 800,
         // responsiveHeight: 300,
-        // scrollOverflow: true
+        scrollOverflow: true
     });
 });
 
