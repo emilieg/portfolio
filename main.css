@@ -8,7 +8,7 @@ body {
   background: white; 
 }
 #typed-strings {
-  visibility: hidden;
+  display: none;
 }
 
 div.iScrollVerticalScrollbar, .iScrollLoneScrollbar {
@@ -16,6 +16,9 @@ div.iScrollVerticalScrollbar, .iScrollLoneScrollbar {
 }
 h2#welcome-message {
   margin-top: 50vh;
+}
+.project-description {
+  margin-top: 5vh;
 }
 
 #menu {
@@ -73,7 +76,7 @@ h1, h2, h3, h4{
 }
 
 .whats-that-description {
-  margin-left: 3vh;
+  margin-left: 5vh !important;
 }
 .iphone {
   margin-left: 3vh;
@@ -360,7 +363,12 @@ h1, h2, h3, h4{
     line-height: 30px;
     padding: 0 1rem;
   }
-
+ .whats-that-description {
+  margin-left: auto !important;
+  } 
+  .project-description {
+  margin-top: 3vh;
+  }
 }
 
 /*
