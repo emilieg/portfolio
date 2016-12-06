@@ -122,13 +122,8 @@ h1, h2, h3, h4{
     padding-right: 2vh;  
   }
 
-  /*.slide-content {
-    width: 90vh;
-    margin: 0 auto;
-  }*/
-
   .slide-content {
-    width: 100%;
+    width: 90%;
     height: 100vh;
     display: table-cell;
     vertical-align: middle;
